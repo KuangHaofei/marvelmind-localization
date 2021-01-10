@@ -1,0 +1,6 @@
+<launch>
+
+    <node pkg="marvelmind_nav" name="hedge" type="hedge_rcv_bin" output="screen" clear_params="true"/>
+    <node pkg="marvelmind_nav" name="message_trans" type="message_trans.py" output="screen" clear_params="true"/>
+
+</launch>
