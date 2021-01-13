@@ -38,9 +38,9 @@ Please refer the official tutorials to setup device:
         conda activate ros_env
         git clone https://bitbucket.org/marvelmind_robotics/ros_marvelmind_package.git
         mkdir -p catkin_ws/src && cd catkin_ws/src
-        mkdir marvelmind_nav && cd marvelmind_nav
+        mkdir marvelmind_nav
         
-        mv ~/ros_marvelmind_package/* .
+        mv ~/ros_marvelmind_package/* ./marvelmind_nav/
         mv ~/marvelmind-localization/launch ~/marvelmind-localization/scripts ./marvelmind_nav/
         sudo chmod -R 777 ./marvelmind_nav/scripts
         cd ~/catkin_ws
