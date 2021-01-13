@@ -1,5 +1,5 @@
 # marvelmind-localization
-This repo is used for tracking object via marvelmind indoor GPUs
+This repo is used for tracking object via marvelmind indoor GPS
 
 A nice tutorials: https://github.com/methylDragon/marvelmind-indoor-gps-tutorial/blob/master/01%20-%20Marvelmind%20Indoor%20GPS%20Tutorial.md
 
