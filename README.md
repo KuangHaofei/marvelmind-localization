@@ -62,6 +62,7 @@ Please refer the official tutorials to setup device:
         ```
       - open ros_bridge for Unity:
         ```shell script
+        conda activate ros_env
         roslaunch rosbridge_server rosbridge_websocket.launch
         ``` 
     - Communication with Arm:  
