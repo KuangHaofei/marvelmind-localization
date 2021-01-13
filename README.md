@@ -32,7 +32,7 @@ Please refer the official tutorials to setup device:
         
         conda env create -f ./ros_env.yaml
         ``` 
-      - setup conda environments:
+      - setup conda & ROS environments:
         ```shell script
         cd ~
         conda activate ros_env
